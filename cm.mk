@@ -5,7 +5,7 @@ $(call inherit-product, vendor/cm/config/gsm.mk)
 PRODUCT_RELEASE_NAME := Ultra
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+#$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/CherryMobile/Ultra/device_Ultra.mk)
@@ -16,3 +16,7 @@ PRODUCT_NAME := cm_Ultra
 PRODUCT_BRAND := CherryMobile
 PRODUCT_MODEL := Ultra
 PRODUCT_MANUFACTURER := CherryMobile
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720

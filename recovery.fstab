@@ -48,3 +48,8 @@
 /dev/block/platform/msm_sdcc.1/by-name/tzbak         /tzbak         emmc    defaults                                                        defaults
 # TIANYURD zhangwp add for persist in recovery
 /dev/block/platform/msm_sdcc.1/by-name/persist       /persist       ext4    ro,barrier=1                                                    wait
+#Add EFS
+/dev/block/platform/msm_sdcc.1/by-name/modemst1      /efs1          emmc    defaults                                                        defaults
+/dev/block/platform/msm_sdcc.1/by-name/modemst2      /efs2          emmc    defaults                                                        defaults
+#Add Splash Image
+/dev/block/platform/msm_sdcc.1/by-name/splash        /splash        emmc    defaults                                                        defaults
